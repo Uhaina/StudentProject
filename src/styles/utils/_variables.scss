@@ -14,7 +14,8 @@ $breakpoints: (
 $colors: (
     white: #fff,
     black: #000,
-    gris-clair: #EFEFEF
+    gris-clair: #EFEFEF,
+    noir-clair: #23282d
 );
 
 @function color($color) {

@@ -1,22 +1,25 @@
 import React, { Component } from 'react';
-import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
-import MailProf from "./components/MailProf";
+import { Switch, Route } from 'react-router-dom';
+import Navbar from "components/Navbar";
+import Sidebar from "components/Sidebar";
+import MailProf from "components/MailProf";
+import AgendaRendu from 'components/AgendaRendu';
 
-//Styles
 import "./styles.scss";
-//import { Switch, Route } from 'react-router-dom';
-
-// pages
 
 class App extends Component {
   render() {
     return (
       <div className="app">
         <Navbar />
-        <div className="page-content">
+        <div className="page-container">
           <Sidebar />
-          <MailProf/>
+          <div className="page-content">
+            <Switch>
+              <Route path="/" exact component={MailProf} />
+              <Route path="/agenda-rendu" component={AgendaRendu} />
+            </Switch>
+          </div>
         </div>
       </div>
     );

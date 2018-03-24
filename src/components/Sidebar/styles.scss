@@ -3,5 +3,6 @@
 div.sidebar-component {
   width: 250px;
   height: 100%;
-  background-color: color(gris-clair);
+  background-color: color(noir-clair);
+  flex-shrink: 0;
 }

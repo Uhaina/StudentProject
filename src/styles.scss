@@ -14,10 +14,14 @@ div.app {
   display: flex;
   flex-direction: column;
 
-  .page-content {
+  .page-container {
     height: 100%;
     display: flex;
     flex-direction: row;
     align-items: stretch;
+  }
+
+  .page-content {
+    width: 100%;
   }
 }
