@@ -1,8 +1,8 @@
 {
-  "name": "react-scss-starter-kit",
+  "name": "idrac-student-project",
   "version": "1.1.0",
-  "homepage" : "A simple react boilerplate based on an ejected create-react-app",
-  "author": "hello@pierrecabriere.fr",
+  "homepage": "A simple react boilerplate based on an ejected create-react-app",
+  "author": "hello@davidvelten.fr",
   "dependencies": {
     "autoprefixer": "8.1.0",
     "babel-core": "6.26.0",
