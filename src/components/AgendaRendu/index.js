@@ -6,7 +6,7 @@ class AgendaRendu extends React.Component {
   render = () => {
     return (
       <div>
-        Text Mamène
+        Test page calendrier
       </div>
     );
   }

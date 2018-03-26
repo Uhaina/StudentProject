@@ -10,6 +10,7 @@ class Navbar extends React.Component {
         <Link to='/'>
           <img className="logo-idrac" src="images/logo-idrac.png" />
         </Link>
+        <h1 className="navbar-title">- Espace IDRAC</h1>
       </div>
     );
   }

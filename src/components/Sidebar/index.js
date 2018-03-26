@@ -7,8 +7,10 @@ class Sidebar extends React.Component {
   render = () => {
     return (
       <div className="sidebar-component">
-        Sidebar Test
+        <h2 className="sidebar-title">Accès rapide</h2>
         <Link to="/agenda-rendu">Agenda des rendus</Link>
+        <br/>
+        <Link to="/mail-prof">Mail des profs</Link>
       </div>
     );
   }

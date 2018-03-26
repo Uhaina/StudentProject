@@ -23,7 +23,7 @@ class MailProfItem extends React.Component {
   render = () => {
     return (
       <div className="mail-prof-item">
-        {this.props.fullName} : {this.props.mail}
+        {this.props.fullName} {this.props.mail}
       </div>
     );
   }
@@ -37,13 +37,31 @@ class MailProfList extends React.Component {
 
     return (
       <div className="mail-prof-list">
-        {
-          profList.map(function(prof) {
-            return (
-              <MailProfItem fullName={prof.fullName} mail={prof.mail} />
-            );
-          })
-        }
+        <table className="table-prof-list">
+          <tr>
+            <th>Salut</th>
+            <th>Test</th>
+          </tr>
+          <tr>
+            <td>
+              {
+                profList.map(function(prof) {
+                  return (
+                    <MailProfItem fullName={prof.fullName} />
+                  );
+                })
+              }
+            </td>
+            <td>
+              {
+                profList.map(function(prof) {
+                  return (<MailProfItem mail={prof.mail} />
+                  );
+                })
+              }
+            </td>
+          </tr>
+        </table>
       </div>
     );
   }

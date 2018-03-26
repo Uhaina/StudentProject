@@ -1,4 +1,5 @@
 @import "~normalize.css/normalize.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600');
 @import "~styles/utils";
 
 html {
@@ -7,6 +8,7 @@ html {
 
 body {
   color: color(text);
+  font-family: 'Montserrat', sans-serif;
 }
 
 div.app {
@@ -23,5 +25,6 @@ div.app {
 
   .page-content {
     width: 100%;
+    padding: 25px 25px;
   }
 }

@@ -4,6 +4,7 @@ import Navbar from "components/Navbar";
 import Sidebar from "components/Sidebar";
 import MailProf from "components/MailProf";
 import AgendaRendu from 'components/AgendaRendu';
+import Actualites from 'components/Actualites';
 
 import "./styles.scss";
 
@@ -16,8 +17,9 @@ class App extends Component {
           <Sidebar />
           <div className="page-content">
             <Switch>
-              <Route path="/" exact component={MailProf} />
+              <Route exact path="/" component={Actualites} />
               <Route path="/agenda-rendu" component={AgendaRendu} />
+              <Route path="/mail-prof" component={MailProf} />
             </Switch>
           </div>
         </div>
