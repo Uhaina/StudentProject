@@ -10,7 +10,16 @@ class Navbar extends React.Component {
         <Link to='/'>
           <img className="logo-idrac" src="images/logo-idrac.png" />
         </Link>
-        <h1 className="navbar-title">- Espace IDRAC</h1>
+        <div className="main-title-container">
+          <div className="picture">
+            <img className="picture-logo" src="images/wave.svg"/>
+          </div>
+          <div className="text-title">
+          <h1 className="website-title">Uhaina.fr</h1>
+          <p className="logo-subtitle">IDRAC Student Group</p>
+          </div>
+        </div>
+        <p className="navbar-title">React IDRAC - Promo 2019</p>
       </div>
     );
   }

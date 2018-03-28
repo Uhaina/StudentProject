@@ -37,6 +37,18 @@ class MailProfList extends React.Component {
 
     return (
       <div className="mail-prof-list">
+        <h2 className="mailProf-title">Mails des profs</h2>
+        <div className="input-ajout-de-prof">
+          <div className="mail">
+            <input class="email-field" required="required" type="email" name="mail" spellcheck="false" placeholder="Adresse mail" />
+          </div>
+          <div className="separator-field">|</div>
+          <div className="nom">
+            <input class="name-field" required="required" type="text" name="nom" spellcheck="false" placeholder="Nom Prénom" />
+          </div>
+          <div className="separator-field-button">|</div>
+          <button class="submit-button" type="submit">Ajouter</button>
+        </div>
         <table className="table-prof-list">
           <tr>
             <th>Salut</th>

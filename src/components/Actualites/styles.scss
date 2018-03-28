@@ -1,2 +1,32 @@
 @import "~styles/utils";
 
+div.actualites-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2.actualite-title {
+  border-bottom: solid 1px color(gris-clair);
+  color: #32325d;
+}
+
+div.actualite-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+img.home-pic {
+  height: 250px;
+}
+
+div.one-container-info {
+  border: 1px solid color(gris-clair);
+  color: #6b7c93;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px 25px 20px 55px;
+  margin: 10px 10px;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, .25);
+}

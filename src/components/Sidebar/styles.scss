@@ -1,13 +1,40 @@
 @import "~styles/utils";
 
 div.sidebar-component {
-  width: 250px;
-  height: 100%;
-  background-color: color(noir-clair);
+  width: 200px;
+  background-color: #f5f5f5;
   flex-shrink: 0;
   padding: 25px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .sidebar-navigation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar-footer {
+    border-top: solid 1px color(noir-clair);
+    padding-top: 10px;
+    color: rgba(0, 0, 0, .70);
+    font-size: .75em;
+  }
 }
 
 h2.sidebar-title {
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 25px 0px;
+  border-bottom: solid 1px color(noir-clair);
+  color: #0099e5;
+}
+
+.link-sidebar {
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: #0d2b3e;
+}
+
+img.logo-item-sidebar {
+  height: 15px;
+  margin-right: 7px;
 }

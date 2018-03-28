@@ -3,3 +3,55 @@
 th {
   border-bottom: solid 1px color(black);
 }
+
+h2.mailProf-title {
+    border-bottom: solid 1px color(gris-clair);
+}
+
+div.input-ajout-de-prof {
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1px 3px rgba(50, 50, 93, .15), 0 1px 0 rgba(0, 0, 0, .02);
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 660px;
+}
+
+div.separator-field {
+  color: #d7dadd;
+}
+
+div.separator-field-button {
+  color: #6772e5;
+}
+
+input {
+  padding: 9px 13px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+button {
+  margin: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 9px 13px;
+  font: inherit;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .025em;
+  color: #6772e5;
+  cursor: pointer;
+  transition: color 0.3s;
+
+  &:hover {
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, .35);
+  }
+}

@@ -1,0 +1,71 @@
+@import '~styles/utils';
+
+div.body-login-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 75px;
+}
+
+div.login-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .main-logo {
+    border-top: solid 1px color(noir-clair);
+    border-bottom: solid 1px color(noir-clair);
+    margin-top: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .identification-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px;
+    margin: 25px 0px;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px rgba(50, 50, 93, .15), 0 1px 0 rgba(0, 0, 0, .02);
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 660px;
+  }
+}
+
+img.logo-idrac-home {
+  height: 75px;
+}
+
+img.main-logo-icon {
+  height: 75px;
+}
+
+p.uhaina {
+  color: rgba(181, 12, 21, .85);
+  font-weight: 600;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 5px;
+  letter-spacing: .20em;
+}
+
+p.subtitle {
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0;
+  padding: 5px;
+}
+
+input {
+
+}
+
+button {
+
+}
