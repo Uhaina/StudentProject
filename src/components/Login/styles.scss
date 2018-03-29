@@ -4,7 +4,6 @@ div.body-login-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 75px;
 }
 
 div.login-content {
@@ -14,8 +13,8 @@ div.login-content {
   align-items: center;
 
   .main-logo {
-    border-top: solid 1px color(noir-clair);
-    border-bottom: solid 1px color(noir-clair);
+    border-top: solid 1px rgba(0,0,0, .5);
+    border-bottom: solid 1px rgba(0,0,0, .5);
     margin-top: 15px;
     padding: 15px;
     display: flex;
@@ -40,6 +39,7 @@ div.login-content {
 
 img.logo-idrac-home {
   height: 75px;
+  margin-top: 70px;
 }
 
 img.main-logo-icon {
@@ -62,10 +62,7 @@ p.subtitle {
   padding: 5px;
 }
 
-input {
-
-}
-
-button {
-
+p.copyright {
+  color: rgba(0,0,0,.5);
+  font-size: .75em;
 }

@@ -4,11 +4,9 @@ import "./styles.scss";
 
 const renduListDelaBDD = [{
     matiere : 'Marketing',
-    prof : 'John Doe',
     dateRendu : '14 Juillet'
   }, {
     matiere : 'Projet',
-    prof: 'John Doe2',
     dateRendu : '15 Août'
   }];
 
@@ -16,7 +14,7 @@ class AgendaItem extends React.Component {
   render = () => {
     return (
       <div className="agenda-rendu-item">
-        {this.props.matiere} {this.props.prof} {this.props.dateRendu}
+        {this.props.matiere} {this.props.dateRendu}
       </div>
     );
   }
@@ -29,10 +27,20 @@ class AgendaRendu extends React.Component {
     return (
       <div className="agenda-list-rendu">
         <h2 className="agenda-title"> Agenda des rendu des profs </h2>
+        <div className="input-ajout-de-prof">
+          <div className="mail">
+            <input class="email-field" required="required" type="email" name="mail" spellcheck="false" placeholder="Matière" />
+          </div>
+          <div className="separator-field">|</div>
+          <div className="nom">
+            <input class="name-field" required="required" type="text" name="nom" spellcheck="false" placeholder="Date Rendu" />
+          </div>
+          <div className="separator-field-button">|</div>
+          <button class="submit-button" type="submit">Ajouter</button>
+        </div>
         <table className="table-agenda">
           <tr>
             <th>Matière concernée</th>
-            <th>Prof concerné</th>
             <th>Date de rendu finale</th>
           </tr>
           <tr>
@@ -42,15 +50,6 @@ class AgendaRendu extends React.Component {
                   return(
                     <AgendaItem matiere={rendu.matiere}/>
                     )
-                })
-              }
-            </td>
-            <td>
-              {
-                renduList.map(function (rendu) {
-                  return (
-                  <AgendaItem prof={rendu.prof}/>
-                  )
                 })
               }
             </td>

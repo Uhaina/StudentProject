@@ -3,3 +3,17 @@
 h2.cours-title {
   border-bottom: solid 1px color(gris-clair);
 }
+
+div.ressources-content {
+  width: 100%;
+  height: 100%;
+  margin:0px;
+  padding:0px;
+  overflow:hidden
+}
+
+iframe.iframe-resources {
+  overflow:hidden;
+  height:150%;
+  width:150%
+}
