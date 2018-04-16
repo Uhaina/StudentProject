@@ -4,8 +4,22 @@ div.mail-prof-list {
   padding: 25px 25px;
 }
 
+table.table-prof-list {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+}
+
 th {
-  border-bottom: solid 1px color(black);
+  border: 1px solid color(gris-clair);
+  background-color: rgba(181, 12, 21, .85);
+  color: color(gris-clair);
+}
+
+td {
+  padding: 2px 15px;
+  border: 1px solid color(gris-clair);
+  border-radius: 5px;
 }
 
 h2.mailProf-title {
@@ -23,6 +37,10 @@ div.input-ajout-de-prof {
   border-radius: 4px;
   overflow: hidden;
   max-width: 660px;
+}
+
+div.mail-prof-item {
+  margin: 5px 0px;
 }
 
 div.separator-field {

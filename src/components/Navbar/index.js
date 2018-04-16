@@ -7,7 +7,7 @@ class Navbar extends React.Component {
   render = () => {
     return (
       <div className="navbar-component">
-        <Link to='/'>
+        <Link to='/backoffice'>
           <img className="logo-idrac" src="/images/logo-idrac.png" />
         </Link>
         <div className="main-title-container">
@@ -19,7 +19,7 @@ class Navbar extends React.Component {
           <p className="logo-subtitle">IDRAC Student Group</p>
           </div>
         </div>
-        <p className="navbar-title">React IDRAC</p>
+        <a href="https://www.facebook.com/groups/374832636282275/?ref=bookmarks" target="_blank"><img className="navnar-RS" src="/images/icons8-facebook.png"/></a>
       </div>
     );
   }

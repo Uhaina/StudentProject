@@ -14,10 +14,10 @@ class Actualites extends React.Component {
         <div className="actualite-info-container">
           <div className="one-container-info">
             <h3> Actu BDE </h3>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi atque debitis, ducimus eius eligendi explicabo facilis harum itaque mollitia, nulla pariatur praesentium quasi repellat similique. Dolor doloremque enim minus?</div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi atque debitis, ducimus eius eligendi explicabo</div>
           <div className="one-container-info">
             <h3>News IDRAC</h3>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A delectus ea impedit magni non officia qui quis sed voluptas. Atque enim eos ipsum iusto, maiores maxime minima nesciunt perspiciatis repellat! efojnoenvoqjndfvojnqsodvjnqojdnvqoj</div>
+            Remplacement du Quick par Burger King en Juillet !!!!!!!!!!!!!!!!!!!! o/</div>
         </div>
       </div>
       </div>

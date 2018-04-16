@@ -3,12 +3,36 @@ import React from 'react';
 import "./styles.scss";
 
 const renduListDelaBDD = [{
-    matiere : 'Marketing',
-    dateRendu : '14 Juillet'
+    matiere : 'Soutenance Mission Consulting',
+    dateRendu : 'Jeudi 19 Avril'
   }, {
-    matiere : 'Projet',
-    dateRendu : '15 Août'
-  }];
+    matiere : 'Strategic Project Management Oral',
+    dateRendu : 'Vendredi 20 Avril'
+  }, {
+  matiere : "TD Purchasing",
+  dateRendu : 'Mercredi 16 Mai'
+}, {
+  matiere : "Système d'information Dossier",
+  dateRendu : 'Lundi 4 Juin'
+}, {
+  matiere : "Wordpress Social Network",
+  dateRendu : 'Jeudi 7 Juin'
+}, {
+  matiere : "TOEIC Blanc",
+  dateRendu : 'Jeudi 12 juillet'
+}, {
+  matiere : "Rendu Mémoire",
+  dateRendu : 'Jeudi 12 juillet'
+}, {
+  matiere : "Busi Eng Line",
+  dateRendu : 'Jeudi 12 juillet'
+}, {
+  matiere : "Partiel Growth International",
+  dateRendu : 'Vendredi 13 juillet'
+}, {
+  matiere : "Partiel CSR Sustainable",
+  dateRendu : 'Vendredi 13 juillet'
+}];
 
 class AgendaItem extends React.Component {
   render = () => {

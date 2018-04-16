@@ -23,7 +23,7 @@ class Index extends React.Component {
           </div>
           <Link  to="/backoffice"><button class="submit-button-home" type="submit">Accéder</button></Link>
         </div>
-        <p className="copyright">© Master Promo 2019 - Tous droits réservés - 2018</p>
+        <p className="copyright">© Master Promo 2019</p>
       </div>
       </div>
     );

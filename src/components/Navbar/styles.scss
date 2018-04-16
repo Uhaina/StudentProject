@@ -1,8 +1,7 @@
 @import "~styles/utils";
 
 div.navbar-component {
-  //background-color: #f6f9fc;
-  background-color: white;
+  background-color: #fff;
   padding: 15px;
   box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, .25);
   display: flex;
@@ -22,15 +21,10 @@ p.navbar-title{
 
 img.logo-idrac {
   height: 50px;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+}
 
-  &:hover {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-  }
+img.navnar-RS {
+  height: 30px;
 }
 
 h1.website-title {

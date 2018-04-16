@@ -8,3 +8,25 @@ h2.agenda-title {
     border-bottom: solid 1px color(gris-clair);
 }
 
+table.table-agenda {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    border: 1px solid color(gris-clair);
+    background-color: rgba(181, 12, 21, .85);
+    color: color(gris-clair);
+    padding: 7px;
+}
+
+td {
+    padding: 2px 15px;
+    border: 1px solid color(gris-clair);
+}
+
+div.agenda-rendu-item {
+    margin: 5px 0px;
+    padding: 5px;
+}
+
